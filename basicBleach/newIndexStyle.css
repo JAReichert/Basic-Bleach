@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #39a6a3, #deeeea);
+  height: 65vh;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  height: 50px;
+  margin-right: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+li {
+  list-style-type: none;
+  padding: 0px;
+  margin-right: 5px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-size: 17px;
+}
+
+.product {
+  margin-right: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #39a6a3;
+}
+
+p {
+  position: absolute;
+  left: 15px;
+  color: #39a6a3;
+}
+/* ****************************************THIS IS FOR THE RESONSIVE HEADER:******************** */
+@media screen and (max-width: 600px), screen and (max-height: 800px) {
+  .header {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    color: #fff;
+    text-decoration: none;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Oswald", sans-serif;
+    font-family: "Permanent Marker", cursive;
+    height: 100px;
+    margin-right: 0px;
+  }
+  nav {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 300px; */
+  }
+  li {
+    list-style-type: none;
+    padding: 0px;
+    /* margin-right: 5px; */
+    font-family: "Bebas Neue", cursive;
+    font-family: "Oswald", sans-serif;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+  }
+
+  .product {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    justify-content: flex-end;
+  }
+
+  .contact {
+    margin-top: 0px;
+    margin-right: 10px;
+    justify-content: flex-end;
+  }
+
+  .quoteClass {
+    visibility: hidden;
+  }
+
+  a {
+    text-decoration: none;
+    color: #39a6a3;
+  }
+
+  p {
+    position: absolute;
+    left: 15px;
+    color: #39a6a3;
+  }
+}
+/* ****************************************THIS ENDS RESONSIVE HEADER:******************** */
+.main {
+  background-image: url("threeFriends.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+.mainTitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", cursive;
+
+  font-size: 100px;
+  text-align: center;
+  color: #39a6a3;
+}
+/* ****************************************THIS IS FOR THE RESONSIVE MAIN TITLE:******************** */
+@media screen and (max-width: 600px), screen and (max-height: 800px) {
+  .mainTitle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Bebas Neue", cursive;
+    font-family: "Oswald", sans-serif;
+    font-family: "Permanent Marker", cursive;
+
+    font-size: 50px;
+    text-align: center;
+    color: #39a6a3;
+  }
+}
+/* ****************************************THIS ENDS THE RESONSIVE MAIN TITLE:******************** */
+.writing {
+  transform: rotate(-20deg);
+  padding: 0;
+}
+
+.schoolSpirit:hover {
+  opacity: 0.5;
+}
+
+.holiday:hover {
+  opacity: 0.5;
+}
+
+.seasonal:hover {
+  opacity: 0.5;
+}
+
+.goSports:hover {
+  opacity: 0.5;
+}
+
+.polaroids {
+  padding: 40px 20px;
+}
+
+.polaroids ul li {
+  margin: 0 10px 10px;
+  position: relative;
+  display: inline-block;
+  list-style: none;
+}
+
+.polaroids ul a {
+  padding: 10px 10px 15px;
+  background-color: #fff;
+  float: left;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #686b70;
+  font-size: 18px;
+  position: relative;
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.polaroids ul a:after {
+  content: attr(title);
+}
+
+.polaroids ul img {
+  display: block;
+  width: 262px;
+  margin-bottom: 12px;
+}
+
+.ourCollection {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+.secondary {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px), screen and (max-height: 800px) {
+  .fa-facebook {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    visibility: hidden;
+  }
+
+  .fa-twitter {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    visibility: hidden;
+  }
+  .fa-instagram {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    visibility: hidden;
+  }
+
+  .fa-pinterest {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    visibility: hidden;
+  }
+
+  .fa-snapchat-ghost {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    visibility: hidden;
+  }
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  color: #deeeea;
+}
+.footerContainer {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 80px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa > .logo {
+  justify-content: flex-start;
+}
+
+.fa-facebook {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-twitter {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-instagram {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-pinterest {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-snapchat-ghost {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logo {
+  height: 100px;
+  margin-top: 45px;
+  position: absolute;
+  left: 15px;
+}
+.storeLink {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  height: 50px;
+  margin-top: 70px;
+  position: absolute;
+  left: 180px;
+}
+.storeLink:hover {
+  background-color: #39a6a3;
+  color: white;
+}

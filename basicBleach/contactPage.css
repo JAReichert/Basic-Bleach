@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 5px;
+  height: 100vh;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  background: linear-gradient(135deg, #39a6a3, #deeeea);
+}
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 100px;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+.headerTwo {
+  margin-left: 350px;
+}
+
+a {
+  color: black;
+}
+
+.storeSign {
+  width: 600px;
+  height: 300px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(50px, 50px, 50px, 100px, 100px);
+  grid-gap: 5px;
+  grid-template-areas:
+    "nameLocation nameLocation form form form"
+    "nameLocation nameLocation form form form"
+    "currentHours currentHours form form form"
+    "hours hours form form form"
+    "hours hours social social social";
+}
+
+.nameLocation {
+  grid-area: nameLocation;
+}
+
+.nameAndEmailForm {
+  grid-area: form;
+  padding-left: 5px;
+  background-color: #deeeea;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+.currentHours {
+  grid-area: currentHours;
+}
+
+.hours {
+  padding-top: 1px;
+  grid-area: hours;
+}
+
+.social {
+  grid-area: social;
+  height: 150px;
+}
+
+.fa {
+  /* padding: 0px; */
+  grid-area: social;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  /* margin-top: 0px;
+  margin-bottom: 170px; */
+  margin: 0px 40px 100px 40px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  grid-area: social;
+  /* margin-top: 50px; */
+}
+
+.fa-facebook {
+  /* background: #39A6A3; */
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  grid-area: social;
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-instagram {
+  /* background: #125688; */
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-pinterest {
+  /* background: #cb2027; */
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-snapchat-ghost {
+  /* background: #fffc00; */
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
