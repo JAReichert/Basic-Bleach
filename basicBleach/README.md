@@ -10,13 +10,13 @@ Basic Bleach is the result of a collaboration between myself and a local busines
 - HTML5
 - CSS3
 - JavaScript
-- -Dom Manipulation
+- Dom Manipulation
 - Asynchronous programming
 - Responsive pages
 
 # API's:
 
-- [Yelp Fusion API](https://api.adviceslip.com/)
+- [adviceslip.com](https://api.adviceslip.com/)
 
 # DETAILS:
 
