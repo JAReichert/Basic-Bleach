@@ -21,6 +21,7 @@ Basic Bleach is the result of a collaboration between myself and a local busines
 # DETAILS:
 
 The website consists of six HTML pages with corresponding CSS and JavaScript pages.  On the main page in the upper left hand corner is an API that generates advice or inspirational sayings everytime the page is accessed or refreshed:
+
 ![apiShot1](https://user-images.githubusercontent.com/87733614/159956866-25744fb0-b6e2-4a18-9a6a-beb3b3cf6a76.png)
 
 ![apiShot2](https://user-images.githubusercontent.com/87733614/159956884-20d1ebb7-35eb-4675-817c-203eb71a3ace.png)
